@@ -63,7 +63,8 @@ Downloader middlewares
 
 Downloader middlewares are specific hooks that sit between the Engine and the
 Downloader and process requests when they pass from the Engine to the
-Downloader, and responses that pass from Downloader to the Engine.
+Downloader, and - in reversed order - responses that pass from Downloader
+to the Engine.
 
 Use a Downloader middleware if you need to do one of the following:
 
